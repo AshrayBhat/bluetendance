@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="fav.ico">
+    <title>Blutendence</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="bootstrap.min.css" rel="stylesheet">
+    <link href="signin.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/templatemo_style.css" rel="stylesheet">
+	 <link href="js/colorbox/colorbox.css"  rel='stylesheet' type='text/css'>
+         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <script>
+
+function validate()
+{
+        namelem = document.getElementById("nam");
+        pwdelem = document.getElementById("pwd");
+
+        
+        if(namelem.value == "" || pwdelem.value == "" || cpwdelem.value=="")
+        {
+                alert("Atleast one field is empty. Please correct the error");
+        }
+        return false;
+}
+
+</script>
+
+  <body>
+  
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	
+      <div class="container">
+	  
+        <div class="navbar-header">
+		
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="image.png" height=70 width=140></img></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" method="post" action="student_login.php" onsubmit="return validate()">
+            <div class="form-group">
+              <input type="text" placeholder="name" id="nam" name="uname" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" id="pwd" name="upwd" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+			<ul class="nav navbar-nav">
+			<li class="dropdown">
+                <a href="" class="dropdown-toggle" data-toggle="dropdown">Sign up <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="student_signup.html">Student</a></li>
+                  <li><a href="lecturer_signup.html">Professor</a></li>
+				 </li></ul></ul>
+			
+          </form>
+		  			 		   
+
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+	
+				
+	  
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+	
+      <!-- <div class="container" >
+
+	  
+        <h1>Blutendence </h1>
+        <p></p>
+		
+		
+       <p><a class="btn btn-primary btn-lg" role="button">See more &raquo;</a></p>
+      </div>-->
+	  
+    </div>
+	
+	<div>
+            <!-- Carousel -->
+            <div id="templatemo-carousel" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#templatemo-carousel" data-slide-to="0" class="active"></li>
+                   
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1><font color="black"><span style="background-color: white">WELCOME TO BLUTENDANCE</span></font></h1>
+                                <p><font color="black"><span style="background-color: white">Attendance for next gen</span></font></p>
+                                <p><a class="btn btn-lg btn-orange" href="#" role="button">EXPLORE</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+                
+            </div><!-- /#templatemo-carousel -->
+        </div>
+<div class="templatemo-service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="templatemo-service-item">
+                            <div>
+                                <img src="images/leaf.png" alt="icon" />
+                                <span class="templatemo-service-item-header">ABOUT US</span>
+                            </div>
+                            <div class="text-center">
+                            	<a rel="nofollow" href="http://www.templatemo.com/page/1" 
+                                	class="templatemo-btn-read-more btn btn-orange">READ MORE</a>
+                            </div>
+                            <br class="clearfix"/>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="templatemo-service-item" >
+                            <div>
+                                <img src="images/mobile.png" alt="icon"/>
+                                <span class="templatemo-service-item-header">CONTACT US</span>
+                            </div>
+							<p>Urbanic is free template by templatemo. Credits go to <a rel="nofollow" href="http://getbootstrap.com">Bootstrap</a> for responsive layout and <a rel="nofollow" href="http://unsplash.com">Unsplash</a> for images used in this template. Curabitur non eros ut dolor tincidunt interdum sit amet vitae quam. Maecenas facilisis sem felis, vel semper arcu tincidunt sit amet.</p>
+                            <div class="text-center">
+                                <a rel="nofollow" href="http://www.templatemo.com/page/2" 
+                                	class="templatemo-btn-read-more btn btn-orange">READ MORE</a>
+                            </div>
+                            <br class="clearfix"/>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="templatemo-service-item">
+                            <div>
+                                <img src="images/battery.png" alt="icon"/>
+                                <span class="templatemo-service-item-header">HELP</span>
+                            </div>
+                            <p>Morbi imperdiet ipsum sit amet dui pharetra, vulputate porta neque tristique. Quisque id turpis tristique, venenatis erat sit amet, venenatis turpis. Ut tellus ipsum, posuere bibendum consectetur vel, egestas sit amet erat. Morbi rhoncus leo fermentum viverra.</p>
+                            <div class="text-center">
+                                <a rel="nofollow" href="http://www.templatemo.com/page/3" 
+                                	class="templatemo-btn-read-more btn btn-orange">READ MORE</a>
+                            </div>
+                            <br class="clearfix"/>
+                        </div>
+                        <br class="clearfix"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+	
+    <div class="container">
+	  <img src="a.jpg" style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1'>
+	  </div>
+	  
+
+      <hr>
+      <footer>
+        <p><font size="4"><b><span style="background-color: white">&copy; Team Blutendance 2014</span></b></font></p>
+      </footer>
+    <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
